@@ -59,5 +59,5 @@ Allows comments in the CSV file *Default: false*
 
 ## Credits
 
-* Inspired by [tsv-loader](https://github.com/webpack/json-loader)
+* Inspired by [dsv-loader](https://github.com/wbkd/dsv-loader)
 * CSV parsing done with [Papa Parse](http://papaparse.com/)
