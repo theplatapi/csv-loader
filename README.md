@@ -5,7 +5,7 @@
 Install via npm:
 
 ```
-npm install --S -E csv-loader
+npm install -S -E csv-loader
 ```
 
 ## Usage
