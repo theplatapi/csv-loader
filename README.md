@@ -26,7 +26,7 @@ To require csv files like this: ```require('data.csv')``` , you can add the csv-
 ``` javascript
 module : {
   loaders : [
-    { test: /\.csv$/, loader: 'csv-loader' } //will load all .csv files with dsv-loader by default
+    { test: /\.csv$/, loader: 'csv-loader' } //will load all .csv files with csv-loader by default
   ]
 }
 ```
@@ -60,4 +60,4 @@ Allows comments in the CSV file *Default: false*
 ## Credits
 
 * Inspired by [tsv-loader](https://github.com/webpack/json-loader)
-* DSV parsing done with [Papa Parse](http://papaparse.com/)
+* CSV parsing done with [Papa Parse](http://papaparse.com/)
