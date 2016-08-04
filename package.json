@@ -1,0 +1,26 @@
+{
+  "name": "csv-loader",
+  "version": "1.0.0",
+  "description": "A webpack module to intelligently load csv files.",
+  "keywords": [
+    "webpack",
+    "loader",
+    "csv",
+    "automatic",
+    "parsing"
+  ],
+  "author": {
+    "name": "scedast",
+    "email": "contact@scedast.com",
+    "web": "scedast.com"
+  },
+  "dependencies": {
+    "papaparse": "4.1.2"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/mit-license.html"
+    }
+  ]
+}
