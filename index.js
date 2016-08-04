@@ -8,7 +8,8 @@ module.exports = function(text) {
   var parsed = Papa.parse(text, {
     header: query.header !== false,
     dynamicTyping: query.dynamicTyping !== false,
-    comments: query.comments === true
+    comments: query.comments === true,
+    skipEmptyLines: true
   });
 
   return 'module.exports = ' + JSON.stringify(parsed.data);
