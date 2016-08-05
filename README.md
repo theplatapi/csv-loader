@@ -1,11 +1,13 @@
 # Webpack csv loader
 
+[![NPM](https://nodei.co/npm/csv-loader.png)](https://nodei.co/npm/csv-loader/)
+
 ## Installation
 
 Install via npm:
 
 ```
-npm install -S -E csv-loader
+npm install -S csv-loader
 ```
 
 ## Usage
