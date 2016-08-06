@@ -53,11 +53,11 @@ var data = require('csv?-dynamicTyping!./data.csv'); //Disable dynamic typing
 
 **comments**
 
+Allows comments in the CSV file *Default: false*
+
 ``` javascript
 var data = require('csv?+dynamicTyping!./data.csv'); //Enable comments
 ```
-
-Allows comments in the CSV file *Default: false*
 
 ## Credits
 
