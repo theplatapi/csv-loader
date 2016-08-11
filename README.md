@@ -24,7 +24,7 @@ module : {
 
 The loader will translate csv files into JSON.
 
-#### Options
+## Options
 
 **header**
 
