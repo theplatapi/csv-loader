@@ -4,7 +4,7 @@ var Papa = require('papaparse');
 module.exports = function(text) {
   this.cacheable();
 
-  var query = loaderUtils.parseQuery(this.query);
+  var query = loaderUtils.getLoaderConfig(this);
   var parsed = Papa.parse(text, {
     header: query.header !== false,
     dynamicTyping: query.dynamicTyping !== false,
