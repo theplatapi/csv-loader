@@ -1,6 +1,6 @@
 {
   "name": "csv-loader",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A webpack module to intelligently load csv files.",
   "keywords": [
     "webpack",
