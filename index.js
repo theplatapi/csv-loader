@@ -7,17 +7,13 @@ module.exports = function(text) {
     default: {
       header: true,
       dynamicTyping: true,
-      comments: false
+      comments: false,
+      skipEmptyLines: true
     }
   };
 
   var config = loaderUtils.getLoaderConfig(this, "default");
-  var parsed = Papa.parse(text, {
-    header: config.header,
-    dynamicTyping: config.dynamicTyping,
-    comments: config.comments,
-    skipEmptyLines: true
-  });
+  var parsed = Papa.parse(text, config);
 
   return 'module.exports = ' + JSON.stringify(parsed.data);
 };
