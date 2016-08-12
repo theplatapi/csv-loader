@@ -40,11 +40,14 @@ const config = {
     { test: /\.csv$/, loader: 'csv-loader' }
   ],
   csv: {
+     dynamicTyping: true,
      header: true,
      skipEmptyLines: true
   }
 }
 ```
+
+This will automatically convert columns to the proper data type, parse the CSV header, and skip any blank lines in the file.
 
 ## Not just a CSV loader
 This module works with any column based file separated by deliminators. Simply set which extension to parse and the
