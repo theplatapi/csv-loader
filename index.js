@@ -2,7 +2,7 @@ var Papa = require('papaparse');
 var loaderUtils = require('loader-utils');
 
 
-module.exports = function(text) {
+module.exports = function (text) {
   var config = loaderUtils.getLoaderConfig(this, "csv");
   var parsed = Papa.parse(text, config);
 
@@ -12,5 +12,3 @@ module.exports = function(text) {
 
   return 'module.exports = ' + JSON.stringify(parsed.data);
 };
-
-
