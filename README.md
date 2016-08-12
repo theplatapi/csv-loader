@@ -18,14 +18,14 @@ npm install -S csv-loader
 Add csv-loader to your webpack config:
 
 ``` javascript
-module : {
+const config = {
   loaders : [
-    { test: /\.csv$/, loader: 'csv-loader' } // loads all .csv files with csv-loader by default
+    { test: /\.csv$/, loader: 'csv-loader' }
   ]
 }
 ```
 
-The loader will translate csv files into JSON.
+This loads all .csv files with csv-loader by default. The loader will translate csv files into JSON.
 
 ## Configuration
 
@@ -36,7 +36,6 @@ Add csv key to your webpack.config.js. Below is the recommended configuration, w
 
 ``` javascript
 const config = {
-  ...
   loaders : [
     { test: /\.csv$/, loader: 'csv-loader' }
   ],
