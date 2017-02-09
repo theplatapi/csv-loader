@@ -27,19 +27,19 @@ Add csv-loader to your webpack 2 configuration:
 
 ``` javascript
 const config = {
-    module: {
-        rules: [
-            {
-                test: /\.csv$/,
-                loader: 'csv-loader',
-                options: {
-                    dynamicTyping: true,
-                    header: true,
-                    skipEmptyLines: true
-                }
-            }
-        ]
-    }
+  module: {
+    rules: [
+      {
+        test: /\.csv$/,
+        loader: 'csv-loader',
+        options: {
+          dynamicTyping: true,
+          header: true,
+          skipEmptyLines: true
+        }
+      }
+    ]
+  }
 ```
 
 The loader will translate csv files into JSON, with the following settings:
