@@ -22,7 +22,7 @@
     "web": "www.scedast.com"
   },
   "dependencies": {
-    "papaparse": "4.1.4"
+    "papaparse": "4.2.0"
   },
   "repository": {
     "type": "git",
