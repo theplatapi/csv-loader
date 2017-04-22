@@ -2,6 +2,10 @@
   "name": "csv-loader",
   "version": "2.0.4",
   "description": "A webpack module to intelligently load csv files.",
+  "scripts": {
+    "export": "npm pack",
+    "publish": "npm publish"
+  },
   "keywords": [
     "webpack",
     "loader",
