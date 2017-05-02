@@ -15,4 +15,4 @@ matrix:
   fast_finish: true
 
 before_script:
-  - yarn install webpack@$WEBPACK_VERSION
+  - yarn add webpack@$WEBPACK_VERSION
