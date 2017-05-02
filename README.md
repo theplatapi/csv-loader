@@ -1,6 +1,7 @@
 # Webpack csv loader
 
 [![NPM](https://nodei.co/npm/csv-loader.png?downloadRank=true)](https://npmjs.com/package/csv-loader)
+[![Build Status](https://travis-ci.org/theplatapi/csv-loader.svg?branch=master)](https://travis-ci.org/theplatapi/csv-loader)
 
 
 ## Purpose
