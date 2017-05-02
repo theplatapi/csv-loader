@@ -1,0 +1,18 @@
+language: node_js
+
+node_js:
+  - 7
+  - 6
+  - 4
+
+env:
+  - WEBPACK_VERSION=2
+  - WEBPACK_VERSION=1
+
+cache: yarn
+
+matrix:
+  fast_finish: true
+
+before_script:
+  - yarn install webpack@$WEBPACK_VERSION
