@@ -12,13 +12,13 @@ This CSV loader automatically converts data types, making it easy to import and 
 Install with yarn:
 
 ```
-yarn add csv-loader
+yarn add -D csv-loader
 ```
 
 Install with npm:
 
 ```
-npm install -S csv-loader
+npm install -save-dev csv-loader
 ```
 
 ## Usage
