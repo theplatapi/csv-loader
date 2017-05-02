@@ -1,7 +1,6 @@
 # Webpack csv loader
 
-[![npm][npm-v]][npm-url]
-[![npm][npm-d]][npm-url]
+[![NPM](https://nodei.co/npm/csv-loader.png?downloadRank=true)](https://npmjs.com/package/csv-loader)
 
 
 ## Purpose
@@ -62,7 +61,3 @@ loader will automatically figure out which deliminator to use by default. The de
 
 * Inspired by [dsv-loader](https://github.com/wbkd/dsv-loader)
 * CSV parsing done with [Papa Parse](http://papaparse.com/)
-
-[npm-v]: https://img.shields.io/npm/v/csv-loader.svg
-[npm-d]: https://img.shields.io/npm/dt/csv-loader.svg
-[npm-url]: https://npmjs.com/package/csv-loader
