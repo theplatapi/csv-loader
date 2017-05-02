@@ -5,14 +5,7 @@ node_js:
   - 6
   - 4
 
-env:
-  - WEBPACK_VERSION=2
-  - WEBPACK_VERSION=1
-
 cache: yarn
 
 matrix:
   fast_finish: true
-
-before_script:
-  - yarn add webpack@$WEBPACK_VERSION
