@@ -3,6 +3,7 @@
   "version": "2.1.0",
   "description": "A webpack module to intelligently load csv files.",
   "scripts": {
+    "test": "mocha",
     "export": "npm pack",
     "publish": "npm publish"
   },
@@ -25,10 +26,6 @@
     "email": "contact@scedast.com",
     "web": "www.scedast.com"
   },
-  "dependencies": {
-    "loader-utils": "^1.1.0",
-    "papaparse": "^4.2.0"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/theplatapi/csv-loader.git"
@@ -41,5 +38,17 @@
       "type": "MIT",
       "url": "http://opensource.org/licenses/mit-license.html"
     }
-  ]
+  ],
+  "dependencies": {
+    "loader-utils": "^1.1.0",
+    "papaparse": "^4.2.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "memory-fs": "^0.4.1",
+    "mocha": "^3.3.0",
+    "raw-loader": "^0.5.1",
+    "should": "^11.2.1",
+    "webpack": "^2.4.1"
+  }
 }
