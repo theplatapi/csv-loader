@@ -39,6 +39,14 @@
       "url": "http://opensource.org/licenses/mit-license.html"
     }
   ],
+  "files": [
+    "LICENSE",
+    "package.json",
+    "yarn.lock",
+    "README.md",
+    "index.js",
+    ".gitignore"
+  ],
   "dependencies": {
     "loader-utils": "^1.1.0",
     "papaparse": "^4.2.0"
