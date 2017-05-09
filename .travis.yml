@@ -9,3 +9,6 @@ cache: yarn
 
 matrix:
   fast_finish: true
+
+notifications:
+  email: false
