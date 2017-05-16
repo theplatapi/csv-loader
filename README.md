@@ -1,5 +1,7 @@
 # Webpack csv loader
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/theplatapi/csv-loader.svg)](https://greenkeeper.io/)
+
 [![NPM](https://nodei.co/npm/csv-loader.png?downloadRank=true)](https://npmjs.com/package/csv-loader)
 [![Build Status](https://travis-ci.org/theplatapi/csv-loader.svg?branch=master)](https://travis-ci.org/theplatapi/csv-loader)
 
