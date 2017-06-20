@@ -23,7 +23,7 @@ npm install -save-dev csv-loader
 
 ## Usage
 
-Add the csv-loader to your webpack 2 configuration:
+Add the csv-loader to your webpack configuration:
 
 ``` javascript
 const config = {
