@@ -21,6 +21,7 @@
     "tsv",
     "dsv"
   ],
+  "homepage": "https://github.com/theplatapi/csv-loader",
   "author": {
     "name": "scedast",
     "email": "contact@scedast.com",
@@ -33,17 +34,11 @@
   "bugs": {
     "url": "https://github.com/theplatapi/csv-loader/issues"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://opensource.org/licenses/mit-license.html"
-    }
-  ],
+  "license": {
+    "type": "MIT"
+  },
   "files": [
-    "LICENSE",
-    "package.json",
     "yarn.lock",
-    "README.md",
     "index.js",
     ".gitignore"
   ],
