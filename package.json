@@ -48,13 +48,16 @@
     ".gitignore"
   ],
   "dependencies": {
-    "loader-utils": "^1.1.0",
-    "papaparse": "^4.2.0"
+    "loader-utils": "^1.1.0"
+  },
+  "peerDependencies": {
+    "papaparse": "^4.5.0"
   },
   "devDependencies": {
     "chai": "^4.0.2",
     "memory-fs": "^0.4.1",
     "mocha": "^4.0.0",
+    "papaparse": "^4.5.0",
     "webpack": "^4.15.0"
   }
 }
