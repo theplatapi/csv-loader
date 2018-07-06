@@ -1,6 +1,7 @@
 # Webpack csv loader
 
-[![NPM](https://nodei.co/npm/csv-loader.png?downloadRank=true)](https://npmjs.com/package/csv-loader)
+[![NPM](https://img.shields.io/npm/v/csv-loader.svg)](https://npmjs.com/package/csv-loader)
+[![NPM](https://img.shields.io/npm/dw/csv-loader.svg?maxAge=2592000)](https://npmjs.com/package/csv-loader)
 [![Build Status](https://travis-ci.org/theplatapi/csv-loader.svg?branch=master)](https://travis-ci.org/theplatapi/csv-loader)
 
 
@@ -49,8 +50,7 @@ The loader will translate csv files into JSON, with the following settings:
 
 ## Configuration
 
-Any options supported by Papa Parse can be passed to this loader with the options object. The current Papa Parse API is available
-[here](http://papaparse.com/docs#config).
+Any options supported by Papa Parse can be passed to this loader with the options object. The current Papa Parse API is available [here](http://papaparse.com/docs#config).
 
 
 
