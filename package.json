@@ -3,9 +3,7 @@
   "version": "3.0.2",
   "description": "A webpack module to intelligently load csv files.",
   "scripts": {
-    "test": "mocha",
-    "export": "npm pack",
-    "publish": "npm publish"
+    "test": "mocha"
   },
   "keywords": [
     "webpack",
