@@ -44,7 +44,6 @@
   ],
   "dependencies": {
     "loader-utils": "^1.1.0",
-    "npm": "^6.1.0"
   },
   "peerDependencies": {
     "papaparse": "^4.5.0"
