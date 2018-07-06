@@ -43,7 +43,7 @@
     ".gitignore"
   ],
   "dependencies": {
-    "loader-utils": "^1.1.0",
+    "loader-utils": "^1.1.0"
   },
   "peerDependencies": {
     "papaparse": "^4.5.0"
