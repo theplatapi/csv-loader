@@ -5,8 +5,9 @@ var path = require("path");
 
 var DEFAULT_CONFIG = {
   entry: "./test/fixtures/before.csv",
+  mode: "production",
   output: {
-    path: path.join(__dirname, "output") + path.sep,
+    path: path.resolve(__dirname),
     filename: "bundle.js"
   },
   module: {
@@ -33,7 +34,7 @@ describe("csv-loader", function () {
         assert.isNull(err);
         assert.equal(stats.hasErrors(), false);
         assert.equal(stats.hasWarnings(), false);
-        assert.deepEqual(eval(stats.compilation.assets["bundle.js"].source()), require("./fixtures/after.json"));
+        assert.deepEqual(eval(stats.toJson().modules[0].source), require("./fixtures/after.json"));
         done();
       });
 
