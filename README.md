@@ -19,7 +19,7 @@ yarn add -D csv-loader
 Install with npm:
 
 ```
-npm install -save-dev csv-loader
+npm install --save-dev csv-loader
 ```
 
 ## Usage
