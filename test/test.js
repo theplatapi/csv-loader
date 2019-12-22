@@ -31,6 +31,9 @@ describe("csv-loader", function () {
   it("parses csv with the recommended configuration", function (done) {
     var compiler = webpack(DEFAULT_CONFIG,
       function (err, stats) {
+        if (err) {
+          done(err);
+        }
         assert.isNull(err);
         assert.equal(stats.hasErrors(), false);
         assert.equal(stats.hasWarnings(), false);
