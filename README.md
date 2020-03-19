@@ -41,6 +41,7 @@ const config = {
       }
     ]
   }
+};
 ```
 
 The loader will translate csv files into JSON, with the following settings:
