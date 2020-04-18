@@ -36,13 +36,12 @@
     "type": "MIT"
   },
   "files": [
-    "yarn.lock",
     "index.js",
     ".gitignore"
   ],
   "dependencies": {
     "loader-utils": "^2.0.0",
-    "papaparse": "^5.1.0"
+    "papaparse": "^5.2.0"
   },
   "devDependencies": {
     "chai": "^4.0.2",
