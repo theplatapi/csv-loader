@@ -25,6 +25,10 @@
     "email": "contact@scedast.com",
     "web": "www.scedast.com"
   },
+  "funding": {
+    "type": "individual",
+    "url": "butmeacoffee.com/allenkoren"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/theplatapi/csv-loader.git"
