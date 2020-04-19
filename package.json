@@ -1,6 +1,6 @@
 {
   "name": "csv-loader",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "description": "A webpack module to intelligently load csv files.",
   "scripts": {
     "test": "mocha"
@@ -27,7 +27,7 @@
   },
   "funding": {
     "type": "individual",
-    "url": "butmeacoffee.com/allenkoren"
+    "url": "https://www.buymeacoffee.com/allenkoren"
   },
   "repository": {
     "type": "git",
