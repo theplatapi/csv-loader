@@ -9,13 +9,6 @@
 This CSV loader automatically converts data types, making it easy to import and start using data.
 
 ## Installation
-
-Install with yarn:
-
-```
-yarn add -D csv-loader
-```
-
 Install with npm:
 
 ```
